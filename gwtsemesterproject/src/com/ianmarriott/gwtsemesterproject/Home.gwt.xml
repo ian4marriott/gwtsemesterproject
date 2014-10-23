@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="GWTSemesterProject">
+	<!-- Inherit the core Web Toolkit stuff. -->
+	<inherits name='com.google.gwt.user.User' />
+
+	<inherits name="org.gwtbootstrap3.GwtBootstrap3" />
+
+	<public path='resource'>
+		<include name='css/*.css' />
+		<include name='js/*.js' />
+	</public>
+
+	<stylesheet src='css/clean-blog.css' />
+	<script src='js/clean-blog.js' />
+
+
+	<!-- Specify the app entry point class. -->
+	<entry-point class="com.ianmarriott.gwtsemesterproject.client.Home"></entry-point>
+
+	<!-- Specify the paths for translatable code -->
+	<source path="client" />
+	<source path='shared' />
+	<source path='Event' />
+</module>
