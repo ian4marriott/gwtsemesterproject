@@ -1,0 +1,9 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui' 
+	xmlns:b='urn:import:org.gwtbootstrap3.client.ui'>
+	<b:Container fluid="true">
+		<b:Row>
+			<b:Column ui:field="content" size="SM_8,MD_6,LG_4" offset="SM_2,MD_3,LG_4"></b:Column>
+		</b:Row>
+	</b:Container>
+</ui:UiBinder>
